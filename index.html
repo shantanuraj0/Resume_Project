@@ -1,123 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        Shantanu Raj
-    </title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-
-    <script src="https://kit.fontawesome.com/a0193a2da6.js" crossorigin="anonymous"></script>
-
+    <title>Shantanu Raj</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 
     <header id="body-header">
+        <nav>
+            
+            <div class = "dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class ="dropdown-list nav-menu">
+                    <ul class = "no-list-style">
+                        <li >
+                            <a href="#"> Home </a>
+                        </li>
+                        <li>
+                            <a href="#about"> About </a>
+                        </li>
+                        <li>
+                            <a href="#skills"> Skills </a>
+                        </li>
+                        <!-- <li>
+                            <a href="#experience">Experience</a>
+                        </li> -->
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
 
-        <!-- adding navigation section -->
-        <nav > 
-            <ul class="horizontal-list text-center nav-menu">
+             </div>   
 
+            <ul class="no-list-style horizontal-list text-center nav-menu">
                 <li>
                     <a href="#"> Home </a>
                 </li>
-                
-                
                 <li>
                     <a href="#about"> About </a>
                 </li>
-                
-                
                 <li>
-                    <a href="#skills"> Skills</a>
+                    <a href="#skills"> Skills </a>
                 </li>
-
-                
-                <li>
+                <!-- <li>
                     <a href="#experience">Experience</a>
-                </li>
-
-                
+                </li> -->
                 <li>
                     <a href="#education">Education</a>
                 </li>
-
-                
                 <li>
                     <a href="#portfolio">Portfolio</a>
                 </li>
-                
-                
                 <li>
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+
         </nav>
 
-
-        <!-- adding social icons -->
         <div id="name-social-container">
             <div class="text-center">
                 <h1 id="my-name">Shantanu Raj</h1>
             </div>
-
             <div>
-                <ul class="horizontal-list text-center social-icons">
+                <ul class="no-list-style horizontal-list text-center social-icons">
                     <li>
                         <a href="https://www.linkedin.com/in/shantanu-raj-b979b3190/">
-                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
                     </li>
-                    
                     <li>
                         <a href="https://github.com/shantanuraj0">
                             <i class="fab fa-github-square"></i>
                         </a>
                     </li>
-
-
                     <li>
                         <a href="https://leetcode.com/rajshan269/">
-                            <img src="image/leetCode.png">
+                            <span class="iconify" data-icon="simple-icons:leetcode"></span>
+                            
                         </a>
                     </li>
-
 
                     <li>
                         <a href="https://www.hackerrank.com/rajshan269">
                             <i class="fab fa-hackerrank"></i>
                         </a>
                     </li>
-
+                    
                     <li>
                         <a href="https://www.codechef.com/users/shan_raj">
-                            <img src="image/codeChef.png">
+                            <span class="iconify" data-icon="simple-icons:codechef"></span>
                         </a>
                     </li>
-
                 </ul>
+
             </div>
+
         </div>
 
     </header>
     <main>
 
         <section id="about">
-           <div class="text-center" id="my-image">
-                <img src="image/shantanu_raj.jpg">
-           </div>
-
-           
-           <div id="about-para">
-
-                <p>
-                    I am currently a student of B.tech 3rd Year CSE department at <span class="text-highlight">IIIT Guwahati</span>.
-                    I am a person with a lot of enthusiasm to learn new things and I follow the motto <span class="text-highlight">“Live Life to the Fullest”</span>. I mainly believe that hard work really matters in our progress.
-                </p>
-
+            <div id="my-image">
+                <img src="/images/shantanu_raj.jpg">
             </div>
-           
-        </section>
 
+            <div id="about-para">
+
+                <p> 
+                    Hi! I'm a <span class="text-highlight">Full-Stack Web developer</span> able to build a website from scratch. 
+                    I'm skilled at writing <span class="text-highlight">well-designed, testable and efficient</span> code using current <span>best practices</span> in Web development.
+                    
+
+                    I am currently a student of B.tech 3rd Year CSE department at <span class="text-highlight">IIIT Guwahati</span>.
+                    I am a person with a lot of enthusiasm to learn new things.
+                    I mainly believe that hard work really matters in our progress.
+                </p>
+                
+            </div>
+
+        </section>
 
 
 
@@ -129,91 +142,104 @@
                 <span> SKILLS </span>
             </h1>
 
-            
             <div class="skills-display">
 
-                
                 <div class="skill-progress">
-                    <div class="eighty-percent mb-blue">
+                    <div class="fifty-percent mb-blue" data-bar-width="85">
                         <div class="skill-name">
                             <span> C++ </span>
                         </div>
                     </div>
                 </div>
 
-
-
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-teal">
+                    <div class="eighty-five-percent mb-orange" data-bar-width="50">
                         <div class="skill-name">
                             <span> Java </span>
                         </div>
                     </div>
                 </div>
-                
 
                 <div class="skill-progress">
-                    <div class="eighty-five-percent mb-orange">
+                    <div class="eighty-five-percent mb-orange" data-bar-width="85">
                         <div class="skill-name">
                             <span> HTML </span>
                         </div>
                     </div>
                 </div>
-                
-
                 <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple">
+                    <div class="eighty-percent mb-light-purple" data-bar-width="70">
                         <div class="skill-name">
                             <span> CSS </span>
                         </div>
                     </div>
                 </div>
-                
-
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-teal">
+                    <div class="fifty-percent mb-teal" data-bar-width="55">
                         <div class="skill-name">
                             <span> Javascript </span>
                         </div>
                     </div>
                 </div>
-                
-
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-blue">
+                    <div class="fifty-percent mb-blue" data-bar-width="55">
                         <div class="skill-name">
                             <span> NodeJs </span>
                         </div>
                     </div>
                 </div>
-                
-
-            
-
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-teal">
+                    <div class="eighty-percent mb-light-purple" data-bar-width="85">
                         <div class="skill-name">
-                            <span> GIT </span>
+                            <span> MongoDB </span>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="skill-progress">
-                    <div class="eighty-five-percent mb-orange">
+                    <div class="eighty-five-percent mb-orange" data-bar-width="80">
                         <div class="skill-name">
-                            <span> MYSQL </span>
+                            <span> MySQL </span>
                         </div>
                     </div>
                 </div>
-
             </div>
 
+            <div class="skill-progress">
+                <div class="fifty-percent mb-teal" data-bar-width="75">
+                    <div class="skill-name">
+                        <span> Express </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-progress">
+                <div class="eighty-five-percent mb-orange" data-bar-width="70">
+                    <div class="skill-name">
+                        <span> JDBC </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="skill-progress">
+                <div class="eighty-percent mb-light-purple" data-bar-width="65">
+                    <div class="skill-name">
+                        <span> GIT </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-progress">
+                <div class="fifty-percent mb-teal" data-bar-width="40">
+                    <div class="skill-name">
+                        <span> LINUX </span>
+                    </div>
+                </div>
+            </div>
         </section>
 
-       
-
-       <section id="experience">
+        <!-- <section id="experience">
 
             <h1 class="section-heading mb75px">
                 <span>
@@ -227,38 +253,38 @@
                 <div class="timeline-box ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <img src="../html/image/experience.png">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> Designation </h3>
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
                 <div class="timeline-box right ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <img src="../html/image/experience.png">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> Designation </h3>
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
                 <div class="timeline-box left ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <img src="../html/image/experience.png">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
                         </div>
                         <h3 class="experience-designation m0 m-blue"> Designation </h3>
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
@@ -272,9 +298,7 @@
 
             </div>
 
-        </section>
-        
-
+        </section> -->
 
         <section id="education">
 
@@ -290,39 +314,39 @@
                 <div class="timeline-box left ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <i class="fas fa-graduation-cap"></i>
+                            <img src="https://www.graphicsprings.com/filestorage/stencils/947ce07b6a145dd5e83db3746ad76fe2.png?width=500&height=500">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> B.Tech </h3>
                         <h4 class="experience-company-name "> IIIT Guwahati </h4>
                         <h5 class="experience-duration m0"> July 2019 - July 2023 </h5>
 
-                        <p class="experience-description text-align-justify"> I am currently a student of B.tech 3rd Year CSE department at IIIT Guwahati. I have secured CPI :7.26 till 4th-sem.   </p>
+                        <p class="experience-description text-justify"> I am currently a student of B.tech 3rd Year CSE department at IIIT Guwahati. I have secured CPI :7.57 till 5th-sem. </p>
                     </div>
                 </div>
                 
                 <div class="timeline-box right ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <i class="fas fa-university"></i>
+                            <img src="https://www.graphicsprings.com/filestorage/stencils/947ce07b6a145dd5e83db3746ad76fe2.png?width=500&height=500">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> Higher Secondary </h3>
                         <h4 class="experience-company-name "> A.N. College </h4>
-                        <h5 class="experience-duration m0"> August 2016 - June 2018 </h5>
-                        <p class="experience-description text-align-justify"> I have completed my Higher Secondary level of education in Science Stream from A.N. College,Patna. I have secured 76.6% in my higher secondary exam.  </p>
+                        <h5 class="experience-duration m0"> August 2016 - June 2018  </h5>
+
+                        <p class="experience-description text-justify">I have completed my Higher Secondary level of education in Science Stream from A.N. College,Patna. I have secured 76.6% in my higher secondary exam.  </p>
                     </div>
                 </div>
 
                 <div class="timeline-box left ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            <i class="fas fa-school"></i>
-
+                            <img src="https://www.graphicsprings.com/filestorage/stencils/947ce07b6a145dd5e83db3746ad76fe2.png?width=500&height=500">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> High School </h3>
                         <h4 class="experience-company-name "> RPS Residential School </h4>
                         <h5 class="experience-duration m0"> Until May 2016  </h5>
 
-                        <p class="experience-description text-align-justify">I have completed my Higher Secondary level of education from RPS Residential School, Patna. I have secured a 10 cgpa in my secondary level exam.  </p>
+                        <p class="experience-description text-justify">I have completed my Higher Secondary level of education from RPS Residential School, Patna. I have secured a 10 cgpa in my secondary level exam.  </p>
                     </div>
                 </div>
                 
@@ -338,8 +362,6 @@
 
         </section>
 
-        
-
         <section id="portfolio">
             <h1 class="section-heading mb75px">
                 <span>
@@ -348,95 +370,66 @@
                 <span> Portfolio </span>
             </h1>
 
-            
             <div id="portfolio-container">
 
-            
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                    <div class="portfolio-details">
-                        <p>
-                            <p>Linux Shell</p>
-                            I have implemented this linux shell using fork() and execvp() system calls.
-                            
-                        </p>
-                    </div>
-
-                </div>
                 
-
                 <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png" >
                     <div class="portfolio-details">
+                        
                         <p>
+                            <a href="https://github.com/shantanuraj0/Real_Estate_Management_System" target="_blank">Link</a>
                             <p>Real Estate Management</p>
-                            This project handles the work of Real estate office.
+                    
                         </p>
                     </div>
 
                 </div>
-                
-
                 <div class="portfolio-image-container">
                     <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
                     <div class="portfolio-details">
                         <p>
-                            Write here basic details about the project.
+                            <a href="https://github.com/shantanuraj0/weatherCheck" target="_blank">Link</a>
+                            <p>Weather Check Web App</p>
                         </p>
                     </div>
 
                 </div>
-                
 
                 <div class="portfolio-image-container">
                     <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
                     <div class="portfolio-details">
                         <p>
-                            Write here basic details about the project.
+                            <a href="https://github.com/shantanuraj0/ContactList" target="_blank">Link</a>
+                            <p>Contact List Web App </p>
                         </p>
                     </div>
 
                 </div>
-                
-
 
                 <div class="portfolio-image-container">
                     <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
                     <div class="portfolio-details">
                         <p>
-                            Write here basic details about the project.
+                            <a href="https://github.com/shantanuraj0/Linux_Shell" target="_blank" >Link</a>
+                            <p>Linux Shell with basic functionalities  </p>
                         </p>
                     </div>
 
                 </div>
                 
-
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
+                
 
             </div>
         </section>
 
-
-
-        
-
         <section id="contact">
-            <h1 class="section-heading mb75px">
+            <h1 class="section-heading mb50px">
                 <span>
-                   <i class="far fa-address-card"></i>
+                    <i class="far fa-address-card"></i>
                 </span>
                 <span> Contact </span>
             </h1>
-
-
             <div id="contact-container">
 
                 <div id="contact-form-container">
@@ -447,13 +440,11 @@
                         <button class="sub-btn" type="submit">SEND MESSAGE</button>
                     </form>
                 </div>
-
-
-
                 <div id="my-details-container">
 
                     <h3> Get In touch </h3>
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <p> Wanna get in touch? </p>
+                    <p>I’d love to hear from you!</p>
 
                     <h3> My Address </h3>
                     <div class="my-details-info-container">
@@ -469,16 +460,11 @@
                         <span>rajshan269gmail.com</span>
                     </div>
                 </div>
-                
             </div>
-
-
-
-
 
             <div class="text-center social-icons">
 
-                <ul class="horizontal-list">
+                <ul class="no-list-style horizontal-list">
 
                     <li>
                         <a href="https://www.linkedin.com/in/shantanu-raj-b979b3190/">
@@ -492,19 +478,21 @@
                         </a>
                     </li>
 
-                    
-
                     <li>
                         <a href="https://www.facebook.com/shantanu.raj.73345/">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
 
+                    
                 </ul>
             </div>
         </section>
 
     </main>
-
+    
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="/js/progressbars.js"></script>
 </body>
 </html>
