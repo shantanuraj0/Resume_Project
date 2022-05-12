@@ -1,2 +1,2 @@
-# Simple_Resume_Project
+# Resume_Project
 Added education section
